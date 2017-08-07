@@ -3,7 +3,7 @@
  * This file calls on the GoogleClient API to verify the user's ID token and
  * request the user's basic profile.
  */
-require_once '../vendor/autoload.php';
+require_once 'vendor/autoload.php';
 
 define('ID_TOKEN', $_POST['token']);
 define('CLIENT_ID', '<your client id>');
