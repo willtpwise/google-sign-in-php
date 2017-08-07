@@ -8,5 +8,8 @@
    */
   header('Content-Type: application/json');
   require_once '../authenticate.php'
+
+  // `authenticate.php` will stop PHP execution if the user is invalid. If the
+  // user checks out, the content below will be returned
 ?>
-{"some": "json"}
+{"your": "content"}
